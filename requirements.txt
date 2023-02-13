@@ -1,2 +1,2 @@
 argparse==1.4.0
-lorem==0.1
+lorem-text
