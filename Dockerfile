@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y python3.9
 RUN ln -sf /usr/bin/python3.9 /usr/bin/python
 
 # Install Linux packages for debugging and basic operation
-RUN apt-get install -y curl nano htop wget python3-pip net-tools
+RUN apt-get install -y curl nano htop wget python3-pip net-tools git
 
 # Set workdir
 WORKDIR /app
