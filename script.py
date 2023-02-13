@@ -4,7 +4,7 @@ import argparse
 from lorem_text import lorem
 
 if __name__ == "__main__":
-     try
+     try:
         parser = argparse. ArgumentParser (description="File with lines generator")
         parser.add_argument('--lines_number', '-n', required=True, type-int, help="Number of lines to be generated")
         args = parser.parse_args()
